@@ -1,6 +1,6 @@
-/*import { createContext, useContext } from "react";
-import { createUserWithEmailAndPassword} from "firebase/auth";
-import { auth } from "firebase";
+import { createContext, useContext } from "react";
+import { createUserWithEmailAndPassword} from "react";
+import { auth } from "react";
 
 export const authContext = createContext()
 
@@ -20,4 +20,4 @@ export function AuthProvider({ children }) {
             {children}
         </authContext.Provider>
     )
-}*/
+}
