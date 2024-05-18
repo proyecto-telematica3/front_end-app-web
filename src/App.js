@@ -2,7 +2,7 @@ import "./styles.css"
 import { Home } from './components/Home';
 import { Login } from './components/Login';
 import { Productos } from './components/Productos';
-import { HashRouter Routes,Route } from "react-router-dom"
+import { HashRouter, Routes,Route } from "react-router-dom"
 //import { AuthProvider } from "./context/authContext";
 import { Register } from "./components/Register";
 import { Crearp } from "./components/Crearp";
