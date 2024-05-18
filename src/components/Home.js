@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react"
 import FirstComponent from "./FirstComponent"
-import { useAuth } from "../context/authContext";
+//import { useAuth } from "../context/authContext";
 
 
 export function Home() {
 
-    const {user} = useAuth()
-    console.log(user)
+    //const {user} = useAuth()
+    //console.log(user)
 
     const [products, setProducts] = useState([])
     useEffect(() => {
