@@ -86,6 +86,14 @@ export function Login() {
           Registrate
         </Link>
       </p>
+      <q className="my-4 text-sm flex justify-between px-3">
+        ¿Quieres conocer nuestros productos?        
+        <Link to="/Home" className="text-blue-700 hover:text-blue-900">
+          Go to Home
+        </Link>
+      </q>
+
+
 
     </div>
   );
