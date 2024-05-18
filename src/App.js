@@ -2,7 +2,7 @@ import "./styles.css"
 import { Home } from './components/Home';
 import { Login } from './components/Login';
 import { Productos } from './components/Productos';
-import { Routes,Route } from "react-router-dom"
+import { HashRouter Routes,Route } from "react-router-dom"
 //import { AuthProvider } from "./context/authContext";
 import { Register } from "./components/Register";
 import { Crearp } from "./components/Crearp";
@@ -12,7 +12,7 @@ function App()
 {
   return (
     <div className="bg-gradient-to-b from-slate-600 to-slate-100 h-screen text-white flex">
-      <H1>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Login/>} />
           <Route path="/Login" element={<Login/>} />
@@ -22,7 +22,7 @@ function App()
           <Route path="/Crearp" element={<Crearp/>} />
           <Route path="/Eliminarp" element={<Eliminarp/>} />
         </Routes>      
-      </H1>
+      </HashRouter>
       </div>
   );
 }
