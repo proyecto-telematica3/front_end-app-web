@@ -14,7 +14,7 @@ export function Eliminarp() {
     setError("");
     try {
       
-      const response = await fetch(`http://localhost:3000/products/delete/${productId}`, {
+      const response = await fetch(`https://proy-tel3-prueba.onrender.com/products/delete/${productId}`, {
         method: "DELETE",
       });
       console.log(productId)

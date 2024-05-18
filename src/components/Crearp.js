@@ -18,7 +18,7 @@ export function Crearp() {
     setError("");
     try {
       
-      const response = await fetch("http://localhost:3000/create/product", {
+      const response = await fetch("https://proy-tel3-prueba.onrender.com/create/product", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

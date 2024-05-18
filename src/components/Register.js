@@ -18,7 +18,7 @@ export function Register() {
     setError("");
     try {
       
-      const response = await fetch("http://localhost:3000/create/users", {
+      const response = await fetch("https://proy-tel3-prueba.onrender.com/create/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

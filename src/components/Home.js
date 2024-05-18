@@ -12,8 +12,8 @@ export function Home() {
     useEffect(() => {
         console.log("Ejecutandose")
         //consumo de la api de leer productos
-        //fetch('https://proy-tel3-prueba.onrender.com/products', {
-        fetch('http://localhost:3000/products', {
+        fetch('https://proy-tel3-prueba.onrender.com/products', {
+        //fetch('http://localhost:3000/products', {
         method: "GET"
         }).then(response => response.json()
         .then(data => setProducts(data))
